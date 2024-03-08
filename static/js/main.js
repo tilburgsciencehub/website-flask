@@ -576,6 +576,7 @@ $(".takeTourFooter").on("click", (event) => {
 // Fill Cards Dynamically
 $(document).ready(function () {
   $('.cards-home').ready(function () {
+    console.log("Error is below. This path does not exist")
     fetch('static/json/cards.json')
       .then(response => response.json())
       .then(data => {
