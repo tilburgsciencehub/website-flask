@@ -82,10 +82,19 @@ $(document).ready(function () {
 
   // make code copy-able
   $(".copyCodeBtn").on("click", function () {
-
+    console.log("I am clicking")
+    var $temp = $('<textarea id="toCopy"></textarea>');
+    $("body").append($temp);
+    $temp
+      .val(
+        $(
+          `.codeblock:eq(${$(this).attr("data-index")}) .tab-pane.active code`
+        ).text()
+      )
+      .select();
+    document.execCommand("copy");
+    $temp.remove();
   });
-
-
 });
 
 $(document).mouseup(function (e) {
