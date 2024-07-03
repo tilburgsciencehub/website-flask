@@ -26,22 +26,22 @@ library(ShiftShareSE)
 
 The code contains the following terms:
 
-  - `d_sh_empl` is the dependent variable; the change in the share of the working-age population.
-  - `d_sh_empl` is the dependent variable; the change in the share of the working-age population.
-    - test
-    - test
+  - list item 1 
+  - list item 2
 
+1. point one 
+2. point two
+    - point two.2
+    
 
 ## Tables
 
 {{% table %}}
-
 | Context                                        | Shift-Share Instrument                                | Authors                                    |
 |-------------------------------------------|----------------------------------------------------|--------------------------------------------------|
 | Employment impact <br> on wage growth <br> in region `l` | *Predicted employment due to <br> national industry trends* <br><br> **Shifts:** National growth of industry `n` <br> **Shares:** Lagged employment <br> shares of industry in region `l` | [Bartik (1991)](https://research.upjohn.org/up_press/77/); <br> [Blanchard & <br> Katz (1992)](https://www.aeaweb.org/articles?id=10.1257/aer.89.2.69)  |
 | Local labor market effects <br> of rising Chinese import <br> competition in the US | *Predicted growth of <br> import competition* <br><br> **Shifts:** Growth of China exports <br> in manufacturing industry `n` <br> **Shares:** 10-year lagged <br> employment shares over total <br> employment in region `l` | [Autor, Dorn, <br> and Hanson <br> (2013)](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)  |
 | Import impact by <br> Danish firm on wages  | *Predicted change in firm inputs <br> via transport costs*<br><br> **Shifts:** Changes in transport <br> costs by `n` = (product, country) <br> **Shares:** Lagged import shares  | [Hummels <br> et al. (2014)](https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1597)  |
-
 {{% /table %}}
 
 
