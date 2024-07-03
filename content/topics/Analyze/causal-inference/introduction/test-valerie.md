@@ -49,7 +49,13 @@ The code contains the following terms:
 
 $UR_{i,t} = \beta_0 + \beta_1 IM_{i,t} + \beta_2 X_{i,t} + \epsilon_{i,t}$
 
-## image test?
+## image test
+
+<p align = "center">
+<img src = "../images/corr_cause.png" width="400">
+<figcaption> Regression output </figcaption>
+</p>
+
 
 
 {{% tip %}}
